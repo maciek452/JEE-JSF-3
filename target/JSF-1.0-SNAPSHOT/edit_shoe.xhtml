@@ -1,0 +1,37 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+    <f:metadata>
+        <f:viewParam name="shoe" value="#{editShoe.shoe}"/>
+    </f:metadata>
+
+    <ui:define name="content">
+        <h:form>
+            <h:panelGrid styleClass="table table-striped" columns="2">
+                <h:outputLabel value="Model:" for="title"/>
+                <h:panelGrid styleClass="full-width">
+                    <h:inputText styleClass="form-control" id="title"
+                                 value="#{editShoe.shoe.model}"/>
+                    <h:message errorClass="error" for="title"/>
+                </h:panelGrid>
+
+                <h:outputLabel value="Collections:" for="shoesCollections"/>
+                <h:panelGrid styleClass="full-width">
+                    <h:selectManyListbox styleClass="form-control" id="shoesCollections" collectionType="java.util.ArrayList"
+                                         value="#{editShoe.shoe.shoesCollections}">
+                        <f:selectItems value="#{editShoe.availableShoesCollections}" var="shoesCollection" itemValue="#{shoesCollection}"
+                                       itemLabel="#{shoesCollection.name} #{shoesCollection.season}"/>
+                    </h:selectManyListbox>
+                    <h:message errorClass="error" for="shoesCollections"/>
+                </h:panelGrid>
+            </h:panelGrid>
+
+            <h:commandButton styleClass="btn btn-primary" value="Save"
+                             action="#{editShoe.saveShoe()}"/>
+            <h:button styleClass="btn btn-default ml-1" value="Powrót" outcome="list_shoes.xhtml"/>
+        </h:form>
+
+    </ui:define>
+</ui:composition>

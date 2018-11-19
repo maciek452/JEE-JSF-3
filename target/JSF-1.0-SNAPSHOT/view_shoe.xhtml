@@ -1,0 +1,35 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+    <f:metadata>
+        <f:viewParam name="shoe" value="#{viewShoe.shoe}" required="true"/>
+    </f:metadata>
+
+    <ui:define name="content">
+        <h:panelGrid styleClass="table table-striped" columns="2">
+            <h:outputLabel value="Model:" for="model"/>
+            <h:outputText id="model" value="#{viewShoe.shoe.model}"/>
+
+            <h:outputLabel value="Collections:" for="shoesCollections"/>
+
+            <h:dataTable id="shoesCollections" styleClass="table"
+                         value="#{viewShoe.shoe.shoesCollections}" var="shoesCollections">
+                <h:column>
+                    <h:outputText value="#{shoesCollections.id}"/>
+                </h:column>
+                <h:column>
+                    <h:outputText value="#{shoesCollections.name}"/>
+                </h:column>
+                <h:column>
+                    <h:outputText value="#{shoesCollections.season}"/>
+                </h:column>
+
+            </h:dataTable>
+
+        </h:panelGrid>
+
+        <h:button styleClass="btn btn-default" value="Powrót" outcome="list_shoes.xhtml"/>
+    </ui:define>
+</ui:composition>

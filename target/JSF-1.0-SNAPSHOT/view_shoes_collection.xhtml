@@ -1,0 +1,21 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+    <f:metadata>
+        <f:viewParam name="shoesCollection" value="#{viewShoesCollection.shoesCollection}" required="true"/>
+    </f:metadata>
+
+    <ui:define name="content">
+        <h:panelGrid  styleClass="table table-striped" columns="2">
+            <h:outputLabel value="Name:" for="name"/>
+            <h:outputText id="name" value="#{viewShoesCollection.shoesCollection.name}"/>
+
+            <h:outputLabel value="Season:" for="season"/>
+            <h:outputText id="season" value="#{viewShoesCollection.shoesCollection.season}"/>
+        </h:panelGrid>
+
+        <h:button styleClass="btn btn-default" value="Return" outcome="list_shoes.xhtml"/>
+    </ui:define>
+</ui:composition>

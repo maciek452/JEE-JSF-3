@@ -1,0 +1,41 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                template="/WEB-INF/templates/main.xhtml">
+    <ui:define name="content">
+
+        <h:dataTable styleClass="table table-striped table-hover"
+                     value="#{listShoesCollections.shoesCollections}" var="shoesCollection">
+            <h:column>
+                <h:outputText value="#{shoesCollection.id}"/>
+            </h:column>
+
+            <h:column>
+                <h:outputText value="#{shoesCollection.name} #{shoesCollection.season}"/>
+            </h:column>
+
+            <h:column>
+                <h:button styleClass="btn btn-default" value="Show" outcome="view_shoes_collection.xhtml">
+                    <f:param name="shoesCollection" value="#{shoesCollection.id}"/>
+                </h:button>
+            </h:column>
+
+            <h:column>
+                <h:button styleClass="btn btn-default" value="Edit" outcome="edit_shoes_collection.xhtml">
+                    <f:param name="shoesCollection" value="#{shoesCollection.id}"/>
+                </h:button>
+            </h:column>
+
+            <h:column>
+                <h:form>
+                    <h:commandButton styleClass="btn btn-danger" value="Delete"
+                                     action="#{listShoesCollections.removeShoesCollection(shoesCollection)}"/>
+                </h:form>
+            </h:column>
+        </h:dataTable>
+
+        <h:button styleClass="btn btn-primary" value="Add new" outcome="edit_shoes_collection.xhtml"/>
+
+    </ui:define>
+</ui:composition>

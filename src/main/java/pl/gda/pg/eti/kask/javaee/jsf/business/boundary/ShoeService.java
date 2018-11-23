@@ -1,5 +1,6 @@
 package pl.gda.pg.eti.kask.javaee.jsf.business.boundary;
 
+import pl.gda.pg.eti.kask.javaee.jsf.business.entities.Brand;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.Shoe;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.ShoesCollection;
 
@@ -47,6 +48,7 @@ public class ShoeService implements Serializable {
             .stream()
             .map(shoesCollection -> findShoesCollection(shoesCollection.getId()))
             .collect(Collectors.toList()));
+    shoe.setBrand(findBrand(shoe.getBrand().getId()));
     return shoe;
   }
 
@@ -84,4 +86,31 @@ public class ShoeService implements Serializable {
     }
     return shoesCollection;
   }
+
+  public Collection<Brand> findAllBrands() {
+    TypedQuery<Brand> query =
+            em.createNamedQuery(Brand.Queries.FIND_ALL, Brand.class);
+    return query.getResultList();
+  }
+
+  public Brand findBrand(int id) {
+    return em.find(Brand.class, id);
+  }
+
+  @Transactional
+  public void removeBrand(Brand brand) {
+    brand = em.merge(brand);
+    em.remove(brand);
+  }
+
+  @Transactional
+  public Brand saveBrand(Brand brand) {
+    if (brand.getId() == null) {
+      em.persist(brand);
+    } else {
+      brand = em.merge(brand);
+    }
+    return brand;
+  }
+
 }

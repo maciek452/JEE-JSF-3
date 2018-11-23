@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -35,9 +36,14 @@ public class Shoe implements Serializable {
   @ManyToMany(cascade = {MERGE, REFRESH})
   private List<ShoesCollection> shoesCollections = new ArrayList<>();
 
-  public Shoe(String model, List<ShoesCollection> shoesCollections) {
+  @NotNull
+  @ManyToOne(cascade = {MERGE, REFRESH})
+  private Brand brand;
+
+  public Shoe(String model, List<ShoesCollection> shoesCollections, Brand brand) {
     this.model = model;
     this.shoesCollections = shoesCollections;
+    this.brand = brand;
   }
 
   public static class Queries {

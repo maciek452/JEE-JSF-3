@@ -33,6 +33,10 @@
             </h:column>
 
             <h:column>
+                <h:outputText value="#{shoe.brand.name}" escape="true"/>
+            </h:column>
+
+            <h:column>
                 <h:button styleClass="btn btn-default" value="Show" outcome="view_shoe.xhtml">
                     <f:param name="shoe" value="#{shoe.id}"/>
                 </h:button>

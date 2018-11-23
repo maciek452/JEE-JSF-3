@@ -26,6 +26,17 @@
                     </h:selectManyListbox>
                     <h:message errorClass="error" for="shoesCollections"/>
                 </h:panelGrid>
+
+                <h:outputLabel value="Brand:" for="shoesCollections"/>
+                <h:panelGrid styleClass="full-width">
+                    <h:selectOneListbox styleClass="form-control" id="brand" collectionType="java.util.ArrayList"
+                                         value="#{editShoe.shoe.brand}">
+                        <f:selectItems value="#{editShoe.availableBrands}" var="brand" itemValue="#{brand}"
+                                       itemLabel="#{brand.name}"/>
+                    </h:selectOneListbox>
+                    <h:message errorClass="error" for="brand"/>
+                </h:panelGrid>
+
             </h:panelGrid>
 
             <h:commandButton styleClass="btn btn-primary" value="Save"

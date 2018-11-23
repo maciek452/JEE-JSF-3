@@ -15,22 +15,14 @@ import java.util.Collection;
 
 @Named
 @ViewScoped
-public class EditShoe implements Serializable {
+public class EditBrand implements Serializable {
 
   @Inject private ShoeService shoeService;
 
-  @Getter @Setter private Shoe shoe = new Shoe();
+  @Getter @Setter private Brand brand = new Brand();
 
-  public Collection<ShoesCollection> getAvailableShoesCollections() {
-    return shoeService.findAllShoesCollections();
-  }
-
-  public Collection<Brand> getAvailableBrands() {
-    return shoeService.findAllBrands();
-  }
-
-  public String saveShoe() {
-    shoeService.saveShoe(shoe);
-    return "list_shoes?faces-redirect=true";
+  public String saveBrand() {
+    shoeService.saveBrand(brand);
+    return "list_brands?faces-redirect=true";
   }
 }

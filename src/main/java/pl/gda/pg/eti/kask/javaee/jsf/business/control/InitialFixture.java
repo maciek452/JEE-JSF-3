@@ -1,5 +1,6 @@
 package pl.gda.pg.eti.kask.javaee.jsf.business.control;
 
+import pl.gda.pg.eti.kask.javaee.jsf.business.entities.Brand;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.Shoe;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.ShoesCollection;
 
@@ -22,9 +23,16 @@ public class InitialFixture {
     ShoesCollection shoesCollection1 = new ShoesCollection("SADC56", "Winter 2015");
     ShoesCollection shoesCollection2 = new ShoesCollection("JSFN96", "Summer 2015");
 
-    Shoe shoe1 = new Shoe("Adidas PLA55", asList(shoesCollection1));
-    Shoe shoe2 = new Shoe("Nike Air88", asList(shoesCollection2));
+    Brand b1 = new Brand("Adidas");
+    Brand b2 = new Brand("Nike");
 
+
+    Shoe shoe1 = new Shoe("Adidas PLA55", asList(shoesCollection1), b1);
+    Shoe shoe2 = new Shoe("Nike Air88", asList(shoesCollection2), b2);
+
+
+    em.persist(b1);
+    em.persist(b2);
     em.persist(shoesCollection1);
     em.persist(shoesCollection2);
     em.persist(shoe1);

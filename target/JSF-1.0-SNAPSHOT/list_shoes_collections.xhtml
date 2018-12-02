@@ -21,13 +21,13 @@
                 </h:button>
             </h:column>
 
-            <h:column>
+            <h:column rendered="#{authentication.isAdmin()}">
                 <h:button styleClass="btn btn-default" value="Edit" outcome="edit_shoes_collection.xhtml">
                     <f:param name="shoesCollection" value="#{shoesCollection.id}"/>
                 </h:button>
             </h:column>
 
-            <h:column>
+            <h:column rendered="#{authentication.isAdmin()}">
                 <h:form>
                     <h:commandButton styleClass="btn btn-danger" value="Delete"
                                      action="#{listShoesCollections.removeShoesCollection(shoesCollection)}"/>

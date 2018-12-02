@@ -1,6 +1,7 @@
 package pl.gda.pg.eti.kask.javaee.jsf.view;
 
-import pl.gda.pg.eti.kask.javaee.jsf.business.boundary.ShoeService;
+import pl.gda.pg.eti.kask.javaee.jsf.business.boundary.services.BrandsService;
+import pl.gda.pg.eti.kask.javaee.jsf.business.boundary.services.ShoesCollectionsService;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.Brand;
 
 import javax.enterprise.context.RequestScoped;
@@ -13,16 +14,16 @@ import java.util.Collection;
 @RequestScoped
 public class ListBrands implements Serializable {
 
-  @Inject private ShoeService shoeService;
+  @Inject private BrandsService brandsService;
 
   private Collection<Brand> brands;
 
   public Collection<Brand> getBrands() {
-    return brands != null ? brands : (brands = shoeService.findAllBrands());
+    return brands != null ? brands : (brands = brandsService.findAllBrands());
   }
 
   public String removeBrand(Brand brand) {
-    shoeService.removeBrand(brand);
+    brandsService.removeBrand(brand);
     return "list_brands?faces-redirect=true";
   }
 }

@@ -2,7 +2,9 @@ package pl.gda.pg.eti.kask.javaee.jsf.view;
 
 import lombok.Getter;
 import lombok.Setter;
-import pl.gda.pg.eti.kask.javaee.jsf.business.boundary.ShoeService;
+import pl.gda.pg.eti.kask.javaee.jsf.business.boundary.services.BrandsService;
+import pl.gda.pg.eti.kask.javaee.jsf.business.boundary.services.ShoesCollectionsService;
+import pl.gda.pg.eti.kask.javaee.jsf.business.boundary.services.ShoesService;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.Brand;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.Shoe;
 import pl.gda.pg.eti.kask.javaee.jsf.business.entities.ShoesCollection;
@@ -17,20 +19,22 @@ import java.util.Collection;
 @ViewScoped
 public class EditShoe implements Serializable {
 
-  @Inject private ShoeService shoeService;
+  @Inject private ShoesService shoesService;
+  @Inject private ShoesCollectionsService shoesCollectionsService;
+  @Inject private BrandsService brandsService;
 
   @Getter @Setter private Shoe shoe = new Shoe();
 
   public Collection<ShoesCollection> getAvailableShoesCollections() {
-    return shoeService.findAllShoesCollections();
+    return shoesCollectionsService.findAllShoesCollections();
   }
 
   public Collection<Brand> getAvailableBrands() {
-    return shoeService.findAllBrands();
+    return brandsService.findAllBrands();
   }
 
   public String saveShoe() {
-    shoeService.saveShoe(shoe);
+    shoesService.saveShoe(shoe);
     return "list_shoes?faces-redirect=true";
   }
 }

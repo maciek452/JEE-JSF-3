@@ -1,0 +1,3 @@
+<jboss-web>
+  <security-domain>shoes</security-domain>
+</jboss-web>

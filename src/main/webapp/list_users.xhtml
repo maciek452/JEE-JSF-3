@@ -1,0 +1,22 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+    <ui:define name="content">
+
+        <h:dataTable id="table" styleClass="table table-striped table-hover"
+                     value="#{listUsers.users}" var="user">
+
+            <h:column>
+                <h:outputText value="#{user.login}" escape="true"/>
+            </h:column>
+
+            <h:column>
+                <h:button styleClass="btn btn-default" value="Edit" outcome="edit_user.xhtml">
+                    <f:param name="user" value="#{user.id}"/>
+                </h:button>
+            </h:column>
+        </h:dataTable>
+    </ui:define>
+</ui:composition>

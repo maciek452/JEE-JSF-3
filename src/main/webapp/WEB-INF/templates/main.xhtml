@@ -43,42 +43,63 @@
                     Java EE
                 </a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav visible-xs">
-                    <li><h:link outcome="list_shoes.xhtml" value="Shoes"/></li>
-                    <li><h:link outcome="list_shoes_collections.xhtml" value="Collections"/></li>
-                    <li><h:link outcome="list_brands.xhtml" value="Brands"/></li>
-                </ul>
-            </div>
+
+            <h:form styleClass="navbar-right" rendered="#{authentication.isAuthenticated()}">
+                <h:panelGroup layout="block" styleClass="navbar-text">
+                    <h:link outcome="change_password.xhtml" value="Hello #{authAspect.getUserLogin()}!   "/>
+                    <h:commandLink action="#{authentication.logout()}" value="Logout" styleClass="navbar-link"/>
+                </h:panelGroup>
+            </h:form>
+            <h:form styleClass="navbar-right" rendered="#{authentication.isNotAuthenticated()}">
+                <h:panelGroup layout="block" styleClass="navbar-text">
+                    <h:link outcome="login_form.xhtml" value="Login"/>
+                </h:panelGroup>
+            </h:form>
+
+            <h:form rendered="#{authentication.isAuthenticated()}">
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav visible-xs">
+                        <li><h:link outcome="list_shoes.xhtml" value="Shoes"/></li>
+                        <li><h:link outcome="list_shoes_collections.xhtml" value="Collections"/></li>
+                        <li><h:link outcome="list_brands.xhtml" value="Brands"/></li>
+                        <li><h:link outcome="list_users.xhtml" value="Manage Users"
+                                    rendered="#{authentication.isAdmin()}"/></li>
+                    </ul>
+                </div>
+            </h:form>
         </div>
     </nav>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3 col-md-2 col-xs-12 sidebar">
-                <ul class="nav nav-sidebar">
-                    <li>
-
-                        <h:link outcome="/list_shoes.xhtml">
-                            <h:outputText value="Shoes"/>
-                        </h:link>
-                    </li>
-                    <li>
-                        <h:link outcome="list_shoes_collections.xhtml">
-                            <h:outputText value="Collections"/>
-                        </h:link>
-                    </li>
-                    <li>
-                        <h:link outcome="list_brands.xhtml">
-                            <h:outputText value="Brands"/>
-                        </h:link>
-                    </li>
-                </ul>
-            </div>
+            <h:form rendered="#{authentication.isAuthenticated()}">
+                <div class="col-sm-3 col-md-2 col-xs-12 sidebar">
+                    <ul class="nav nav-sidebar">
+                        <li>
+                            <h:link outcome="/list_shoes.xhtml">
+                                <h:outputText value="Shoes"/>
+                            </h:link>
+                        </li>
+                        <li>
+                            <h:link outcome="list_shoes_collections.xhtml">
+                                <h:outputText value="Collections"/>
+                            </h:link>
+                        </li>
+                        <li>
+                            <h:link outcome="list_brands.xhtml">
+                                <h:outputText value="Brands"/>
+                            </h:link>
+                        </li>
+                        <li>
+                            <h:link outcome="list_users.xhtml" rendered="#{authentication.isAdmin()}">
+                                <h:outputText value="Manage Users"/>
+                            </h:link>
+                        </li>
+                    </ul>
+                </div>
+            </h:form>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-
                 <ui:insert name="content"/>
-
             </div>
         </div>
     </div>

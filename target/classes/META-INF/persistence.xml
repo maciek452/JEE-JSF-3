@@ -6,7 +6,13 @@
 
         <jta-data-source>java:/shoes</jta-data-source>
 
+        <class>pl.gda.pg.eti.kask.javaee.jsf.business.entities.Brand</class>
+        <class>pl.gda.pg.eti.kask.javaee.jsf.business.entities.Shoe</class>
+        <class>pl.gda.pg.eti.kask.javaee.jsf.business.entities.ShoesCollection</class>
+        <class>pl.gda.pg.eti.kask.javaee.jsf.business.entities.security.User</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
+
+        <shared-cache-mode>ALL</shared-cache-mode>
 
         <properties>
             <!--<property name="hibernate.show_sql" value="true"/>-->

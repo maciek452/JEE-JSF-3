@@ -1,0 +1,36 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+    <f:metadata>
+        <f:viewParam name="user" value="#{editUser.user}"/>
+    </f:metadata>
+
+    <ui:define name="content">
+        <h:form>
+            <h:panelGrid styleClass="table table-striped" columns="2">
+                <h:outputLabel value="Login:" for="title"/>
+                <h:panelGrid styleClass="full-width">
+                    <h:outputLabel styleClass="form-control" id="title"
+                                 value="#{editUser.user.login}"/>
+                </h:panelGrid>
+            </h:panelGrid>
+
+            <h:outputLabel value="Role:" for="role"/>
+            <h:panelGrid styleClass="full-width">
+                <h:selectManyListbox styleClass="form-control" id="role" collectionType="java.util.ArrayList"
+                                    value="#{editUser.user.roles}">
+                    <f:selectItems value="#{editUser.avaibleRoles}" var="reole" itemValue="#{role}"
+                                   itemLabel="#{role}"/>
+                </h:selectManyListbox>
+                <h:message errorClass="error" for="role"/>
+            </h:panelGrid>
+
+            <h:commandButton styleClass="btn btn-primary" value="Save"
+                             action="#{editUser.saveUser()}"/>
+            <h:button styleClass="btn btn-default ml-1" value="Return" outcome="list_users.xhtml"/>
+        </h:form>
+
+    </ui:define>
+</ui:composition>

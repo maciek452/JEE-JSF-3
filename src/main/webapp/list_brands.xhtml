@@ -15,13 +15,13 @@
                 <h:outputText value="#{brand.name}" escape="true"/>
             </h:column>
 
-            <h:column>
+            <h:column rendered="#{authentication.isAdmin()}">
                 <h:button styleClass="btn btn-default" value="Edit" outcome="edit_brand.xhtml">
                     <f:param name="brand" value="#{brand.id}"/>
                 </h:button>
             </h:column>
 
-            <h:column>
+            <h:column rendered="#{authentication.isAdmin()}">
                 <h:form>
                     <h:commandButton styleClass="btn btn-danger" value="Delete"
                                      action="#{listBrands.removeBrand(brand)}"/>

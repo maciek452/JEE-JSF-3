@@ -7,85 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2671056e-0677-49d0-99fb-00a89409c877" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/dao/JpaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/dao/UserJpaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/login/AuthAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/login/CustomLoginModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/login/RolesGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/services/ShoesCollectionsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/services/ShoesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/entities/security/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/entities/security/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/utils/CryptUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/UsersConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/ChangePassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/RequestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/jboss-ejb3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/change_password.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit_user.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/list_users.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login_form.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildfly.cli" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/ShoeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/services/BrandsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoesCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoesCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoesCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoesCollections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/AbstractEntityConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/BrandsConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/BrandsConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoesCollectionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoesCollectionConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/edit_shoe.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/edit_shoe.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/list_brands.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list_brands.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/list_shoes.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list_shoes.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/list_shoes_collections.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list_shoes_collections.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/ShoeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditBrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoesCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoesCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoesCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoesCollections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/AbstractEntityConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/BrandsConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/BrandsConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoeConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoesCollectionConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoesCollectionConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/templates/main.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/templates/main.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/edit_shoe.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/edit_shoe.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/list_brands.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/list_brands.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/list_shoes.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/list_shoes.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/list_shoes_collections.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/JSF-1.0-SNAPSHOT/list_shoes_collections.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/ShoeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditBrand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditBrand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoesCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoesCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoesCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoesCollections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/AbstractEntityConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/BrandsConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/BrandsConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoeConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoesCollectionConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/gda/pg/eti/kask/javaee/jsf/view/converters/ShoesCollectionConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login_form.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login_form.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,49 +49,80 @@
     </expand>
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="edit_shoe.xhtml" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/webapp/edit_shoe.xhtml">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="99">
+                    <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="53" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list_shoes.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/list_shoes.xhtml">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+            <state relative-caret-position="100">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xhtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_shoes_collections.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/list_shoes_collections.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_users.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/list_users.xhtml">
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/entities/security/Role.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersConverter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/converters/UsersConverter.java">
+      <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_form.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login_form.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitialFixture.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/entities/security/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -175,17 +130,8 @@
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/services/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_user.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/edit_user.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="102">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -193,21 +139,12 @@
       <file leaf-file-name="ListBrands.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="287">
               <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <element signature="e#634#635#0" expanded="true" />
                 <element signature="e#717#718#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_brands.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/list_brands.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -250,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/entities/ShoesCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/Config.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/EditShoesCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoesCollections.java" />
@@ -280,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListShoes.java" />
         <option value="$PROJECT_DIR$/wildfly.cli" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/ChangePassword.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/RequestUtils.java" />
@@ -301,6 +236,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/list_shoes_collections.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/list_shoes.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/main.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login_form.xhtml" />
       </list>
     </option>
   </component>
@@ -461,7 +398,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jsf" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="converters" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSF" type="b2602c69:ProjectViewProjectNode" />
@@ -682,7 +619,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39078000" />
+    <option name="totallyTimeSpent" value="39717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -701,7 +638,7 @@
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.49188313" />
+      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.37662336" />
       <window_info anchor="bottom" id="TODO" order="15" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32954547" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
@@ -709,22 +646,52 @@
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.49512988" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.43993506" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32954547" />
       <window_info id="Persistence" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2806354" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32954547" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.49512988" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2065053" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32954547" />
       <window_info anchor="bottom" id="SQL Generator" order="0" weight="0.32954547" />
-      <window_info anchor="bottom" id="Database Console" order="1" weight="0.28733766" />
+      <window_info anchor="bottom" id="Application Servers" order="2" weight="0.20779221" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25340393" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="8" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.28733766" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32954547" />
+      <window_info id="Persistence" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info id="Designer" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.32954547" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="JSF" order="2" />
       <window_info anchor="right" id="Commander" order="9" weight="0.4" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.49188313" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -772,9 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,11 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login_form.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -826,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="34" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/entities/security/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="204">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -941,13 +897,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -962,13 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -991,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/entities/security/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="311">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1011,28 +953,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/edit_shoe.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/control/InitialFixture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="228">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1069,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/business/boundary/services/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1010,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/ListBrands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="287">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <element signature="e#634#635#0" expanded="true" />
@@ -1117,6 +1044,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/gda/pg/eti/kask/javaee/jsf/view/security/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="32" column="81" selection-start-line="32" selection-start-column="81" selection-end-line="32" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/edit_shoe.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login_form.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
         </state>
       </provider>
     </entry>

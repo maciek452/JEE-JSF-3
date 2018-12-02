@@ -3,6 +3,8 @@ package pl.gda.pg.eti.kask.javaee.jsf.view.security;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.faces.application.FacesMessage;
+import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 import javax.servlet.ServletException;
@@ -15,13 +17,9 @@ import static pl.gda.pg.eti.kask.javaee.jsf.view.security.RequestUtils.getReques
 @Named
 @ViewScoped
 public class LoginForm implements Serializable {
-  @Getter
-  @Setter
-  String login;
+  @Getter @Setter String login;
 
-  @Getter
-  @Setter
-  String password;
+  @Getter @Setter String password;
 
   public String login() throws IOException {
     try {
@@ -31,6 +29,8 @@ public class LoginForm implements Serializable {
 
     } catch (ServletException ex) {
       ex.printStackTrace();
+      FacesContext.getCurrentInstance()
+          .addMessage("password", new FacesMessage("Login or password not correct."));
       return null;
     }
   }
